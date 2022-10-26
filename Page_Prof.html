@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Style Proto.css">
+<title>Gestion Des Professeurs</title>
+</head>
+<body class="Body2">
+    <form action=""method="post"autocomplete="on">
+        <div class="Cree"style="height:90vh">
+        <div class="Cre_T">Ajouter Professeur</div>
+        <div class="Champ">
+            <div class="Flex">
+            
+            <div class="TB">Nom</div>
+            <div class="TB">Prénom</div>
+            <div class="TB">Grade</div>
+            <div class="TB">Modules</div>
+           </div>
+            <div class="Flex2">
+            <input type="text" style="margin-top: 5vh;width:50vh;overflow: auto;transform:translateY(-5vh);">
+            <input type="text"style="margin-top: 2vh;width:50vh;overflow: auto;translateY(-5vh);">
+            <select  class="FC"style="overflow: auto;translateY(-5vh);">
+                <option value="">LICENCE</option>
+                <option value="">MASTER</option>
+                <option value="">DOCTORAT</option>
+                <option value="">PROFESSORAT</option>
+                
+            </select>
+            <div class="Mod"style="font-size:3vh;margin-left:7vh">
+                <input type="checkbox"style="transform :scale(1.1);">Algorithmique Et Structures De Données
+                <input type="checkbox" name="" id=""style="transform :scale(1.1);">C
+                <input type="checkbox" name="" id=""style="transform :scale(1.1);">UML
+                <input type="checkbox" name="" id=""style="transform :scale(1.1);">PHP
+                <input type="checkbox" name="" id=""style="transform :scale(1.1);">Python
+                <input type="checkbox" name="" id=""style="transform :scale(1.1);">Java
+                <input type="checkbox" name="" id=""style="transform :scale(1.1);">Administration Système
+                <input type="checkbox" name="" id=""style="transform :scale(1.1);">Architecture Réseaux
+                <input type="checkbox" name="" id=""style="transform :scale(1.1);">SGBD
+            </div>
+        </div>
+        
+       </div>
+    
+       <div class="Flex1">
+        <input type="reset"class="FC1"value="Annuler"style="background-color:red;cursor: pointer;">
+        <input type="submit"class="FC1"value="Ajouter"style="background-color:green;margin-left:30vh;margin-top:2.6vh;cursor: pointer;">
+    </div>
+        
+</div>
+   </form> 
+   <div class="List">
+    <div class="Cre_T">Liste de Professeurs</div>
+    <div class="Tab">
+    <table>
+        <tr> 
+            <th colspan="4" color="blue"style="border:1;border-style: solid;border-radius: 1vh;">Matricule</th>
+            <th colspan="5" color="blue"style="border:1;border-style: solid;">Nom & Prénoms</th>
+            <th colspan="4" color="blue"style="border:1;border-style: solid;">Grade</th>
+            <th colspan="4" color="blue"style="border:1;border-style: solid;">Module(s)</th>
+            <th colspan="4" color="blue"style="border:1;border-style: solid;">Classe(s)</th>
+        </tr>
+         <tr>
+             <td colspan="4" style="border:1;border-style: solid;">L1 GLRS</td>
+             <td colspan="5" style="border:1;border-style: solid;">L1</td>
+             <td colspan="4" style="border:1;border-style: solid;">L1</td>
+             <td colspan="4" style="border:1;border-style: solid;">L1</td>
+             <td colspan="4" style="border:1;border-style: solid;">GLRS</td>
+         </tr>
+         
+         <tr>
+             <td colspan="4" style="border:1;border-style: solid;">L1 MAIE</td>
+             <td colspan="5" style="border:1;border-style: solid;">L1</td>
+             <td colspan="4" style="border:1;border-style: solid;">L1</td>
+             <td colspan="4" style="border:1;border-style: solid;">L1</td>
+             <td colspan="4" style="border:1;border-style: solid;">MAIE</td>
+         </tr>
+         <tr>
+            <td colspan="4" style="border:1;border-style: solid;">L1 MAIE</td>
+            <td colspan="5" style="border:1;border-style: solid;">L1</td>
+            <td colspan="4" style="border:1;border-style: solid;">L1</td>
+            <td colspan="4" style="border:1;border-style: solid;">L1</td>
+            <td colspan="4" style="border:1;border-style: solid;">MAIE</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="border:1;border-style: solid;">L1 MAIE</td>
+            <td colspan="5" style="border:1;border-style: solid;">L1</td>
+            <td colspan="4" style="border:1;border-style: solid;">L1</td>
+            <td colspan="4" style="border:1;border-style: solid;">L1</td>
+            <td colspan="4" style="border:1;border-style: solid;">MAIE</td>
+        </tr>
+        </table>
+        </div>    
+</div>
+<form action=""method="post"autocomplete="on">
+    <div class="Cree"style="height:150vh">
+    <div class="Cre_T">Affectation Classe Professeur</div>
+    <div class="Champ">
+        <div class="Flex">
+        
+        <div class="TB">Mat</div>
+        <div class="TB">Nom & Prénoms</div>
+        <div class="TB">Grade</div>
+        <div class="TB" style="margin-bottom:5vh">Année Scolaire</div>
+        <div class="TB">Semestre</div>
+        <div class="TB">Classes</div>
+       </div>
+        <div class="Flex">
+        <input type="text" style="margin-top: 5vh;width:50vh;margin-top: 8vh;margin-left: 1vh;overflow: hidden">
+        <div style="font-size: 4vh;display:block;margin-left: 1vh;margin-top: 5vh">Sergio Aquina</div>  
+        <div style="font-size: 4vh;display:block;margin-left: 1vh;margin-top: 14vh">DOCTORAT</div> 
+        <select  class="FC"style="overflow: auto;transform:translate(-18vh,10vh);margin-bottom:5vh">
+            <option value="">2022-2023</option>
+            <option value="">2023-2024</option>
+            <option value="">2024-2025</option>
+            <option value="">2025-2026</option>
+        </select>
+        <div>
+        <select class="FC" style="overflow: auto;margin-bottom:5vh;transform:translate(-18vh,20vh)">
+            <option value=""></option>
+            <option value="">1</option>
+            <option value="">2</option>
+        </select></div>
+        <div class="Mod"style="font-size:3vh;margin-left:-5vh;margin-top:21vh;">
+            <input type="checkbox"style="transform :scale(1.1);">L1 GLRS
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L1 ETSE
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L1 IAGEA
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L1 IAGEB
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L1 MAIE
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L1 MOSIEF
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L1 TTLA
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L1 TTLB
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L2 IAGEA
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L2 IAGEB
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L2 TTLA
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L2 TTLB
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L2 GLRS
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L2 ETSE
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L2 IAGEA
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L2 IAGEB
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L2 MAIE
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L2 MOSIEF
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L3 IAGEA
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L3 IAGEB
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L3 TTLA
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L3 TTLB
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L3 GLRS
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L3 ETSE
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L3 IAGEA
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L3 IAGEB
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L3 MAIE
+            <input type="checkbox" name="" id=""style="transform :scale(1.1);">L3 MOSIEF
+        </div>
+    </div>
+    
+   </div>
+   </div>
+</body>
